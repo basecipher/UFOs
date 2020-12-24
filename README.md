@@ -1,5 +1,6 @@
+
 # UFOs
-Intro to JS
+Intro to JS & HTML
 
 ## Overview of Project
 Dana’s webpage and dynamic table are working as intended, but she’d like to provide a more in-depth analysis of UFO sightings by allowing users to filter for multiple criteria at the same time. In addition to the date, you’ll add table filters for the city, state, country, and shape.
@@ -9,6 +10,6 @@ I found out that a user is easily able to search UFO sightings by multiple crite
 The user, if they choose, wants to see the sightings on lets say 10th, 2011 in Vermont they would enter that date in the first filter box and enter "VT" in the state filter. 
 
 ## Summary
-*The index.html file has the following: The list element for the button is removed. ALL FIVE list elements for filtering are created. The app.js file has the following: The event listener is modified to detect changes to ALL FIVE filters. The updateFilters() function saves the element, value, and the id of the filter that was changed. The filterTable() function loops through all of the filters and keeps any data that matches the filter values. The webpage filters the table based on user input.
-*The written analysis has ALL of the following: There is a title, and there are multiple paragraphs. Each paragraph has a heading. There are subheadings. Images are correct and displayed where appropriate.
-*The Deliverable Fulfills "Emerging" Required Criteria: AND has the following: The summary addresses a drawback of the design. The summary has TWO recommendations for further development.
+The drawback of the design is if user chooses a criteria thats not in table no result will show but; that in itself is fine but this leaves user wanting a better search filter.  Search filter could be improved by allowing a auto-fill list appear for potential results as user is typing.  This way user knows they are on the right track with their search entry.  I would also recommend a quick reset button on page to clar all search criteria all at once.
+
+![Multiple Filter](https://github.com/basecipher/UFOs/blob/main/images/Multiple%20Filter%20Search.png)
